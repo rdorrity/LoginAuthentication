@@ -3,29 +3,20 @@
    <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Login Screen</title>
+      <title>Welcome</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="">
    </head>
    <body>
 
-      <form method="POST">
+      <h1>Welcome</h1>
 
-         Username: <input type="text" name="username">
-         <br>
-         Password: <input type="password" name="password">
-         <br>
+      <form action="/logout">
          <button>
-            Login!
+            Logout
          </button>
       </form>
-
-      <% if (typeof loginError != "undefined" && loginError) {%>
-      
-         <h3 class="error">Wrong credentials!</h3>
-
-         <% }%>
       
       <script src="" async defer></script>
    </body>
